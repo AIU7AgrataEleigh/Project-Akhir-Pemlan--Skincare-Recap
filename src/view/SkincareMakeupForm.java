@@ -200,7 +200,13 @@ public class SkincareMakeupForm extends javax.swing.JFrame {
     }
         
     // ================== TOMBOL HAPUS ==================
-    
+       private void btnSimpanActionPerformed(java.awt.event.ActionEvent evt) {
+        if (txtJenisSkincare.getText().trim().isEmpty()) {
+        JOptionPane.showMessageDialog(this, "Judul tidak boleh kosong");
+        txtJenisSkincare.requestFocus();
+        return;
+    }
+ 
         
     // ================== TOMBOL BERSIHKAN ==================
         
@@ -254,3 +260,5 @@ public class SkincareMakeupForm extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
+
+
