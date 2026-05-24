@@ -162,8 +162,8 @@ public class SkincareMakeupForm extends javax.swing.JFrame{
         }
     }
 
-    // ================== BERSIHKAN ==================
-    private void btnBatalActionPerformed(java.awt.event.ActionEvent evt) {
+    // ================== BERSIHKAN ================== (by Syifa)
+    private void btnBersihActionPerformed(java.awt.event.ActionEvent evt) {
         bersihkanForm();
     }
 
@@ -201,7 +201,6 @@ public class SkincareMakeupForm extends javax.swing.JFrame{
         btnSimpan = new javax.swing.JButton("SIMPAN");
         btnUbah = new javax.swing.JButton("UBAH");
         btnHapus = new javax.swing.JButton("HAPUS");
-        btnBatal = new javax.swing.JButton("BATAL");
 
         tblDataMS = new javax.swing.JTable();
         javax.swing.JScrollPane scroll = new javax.swing.JScrollPane(tblDataMS);
@@ -236,7 +235,6 @@ public class SkincareMakeupForm extends javax.swing.JFrame{
         add(btnSimpan);
         add(btnUbah);
         add(btnHapus);
-        add(btnBatal);
 
         add(scroll);
 
