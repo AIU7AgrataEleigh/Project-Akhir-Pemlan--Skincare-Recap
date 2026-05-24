@@ -182,7 +182,7 @@ public class SkincareMakeupForm extends javax.swing.JFrame{
     private javax.swing.JButton btnSimpan;
     private javax.swing.JButton btnUbah;
     private javax.swing.JButton btnHapus;
-    private javax.swing.JButton btnBatal;
+    private javax.swing.JButton btnBersih;
     private javax.swing.JTable tblDataMS;
     private javax.swing.JTextField txtBrand;
     private javax.swing.JTextField txtHarga;
@@ -201,6 +201,7 @@ public class SkincareMakeupForm extends javax.swing.JFrame{
         btnSimpan = new javax.swing.JButton("SIMPAN");
         btnUbah = new javax.swing.JButton("UBAH");
         btnHapus = new javax.swing.JButton("HAPUS");
+        btnBersih = new javax.swing.JButton("CLEAR");
 
         tblDataMS = new javax.swing.JTable();
         javax.swing.JScrollPane scroll = new javax.swing.JScrollPane(tblDataMS);
@@ -235,6 +236,7 @@ public class SkincareMakeupForm extends javax.swing.JFrame{
         add(btnSimpan);
         add(btnUbah);
         add(btnHapus);
+        add(btnBersih);
 
         add(scroll);
 
